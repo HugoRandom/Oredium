@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="All rights reserved"
+# issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/" 
+[[mods]] 
+modId="oredium"
+version="1.0"
+displayName="Oredium Mod"
+# logoFile="oredium.png"
+credits="Hi Mom, I'm programming in Minecraft"
+authors="HugoRandom, AlezardP9"
+description='''
+Hi, this is my first and new Mod to Minecraft 1.16.5
+My objective: add new custom ores, generation, materials, weapons, tools, armors and specially Tinker's materials and alloys.
+'''
+
+[[dependencies.oredium]]    
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+    
+[[dependencies.oredium]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"

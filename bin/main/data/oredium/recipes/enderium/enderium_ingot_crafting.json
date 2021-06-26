@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " o ",
+        "oBo",
+        " o "
+    ],
+    "key": {
+        "o": {
+            "item": "oredium:enderita_plate"
+        },
+        "B": {
+            "item": "minecraft:blaze_powder"
+        }
+    },
+    "result": {
+        "item": "oredium:enderium_ingot",
+        "count": 1
+    }
+}

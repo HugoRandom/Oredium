@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "oIo",
+        "IEI",
+        "oIo"
+    ],
+    "key": {
+        "o": {
+            "item": "oredium:enderium_ingot"
+        },
+        "I": {
+            "item": "minecraft:iron_nugget"
+        },
+        "E": {
+            "item": "oredium:enderita_crystal"
+        }
+    },
+    "result": {
+        "item": "oredium:enderium_gem",
+        "count": 1
+    }
+}

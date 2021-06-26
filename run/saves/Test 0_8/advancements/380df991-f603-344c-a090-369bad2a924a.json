@@ -1,0 +1,38 @@
+{
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2021-06-14 21:20:32 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_planks": {
+    "criteria": {
+      "has_logs": "2021-06-14 21:20:32 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_spruce_wood": {
+    "criteria": {
+      "has_log": "2021-06-14 21:20:32 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/packed_ice": {
+    "criteria": {
+      "has_ice": "2021-06-14 21:19:38 -0600"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:snowy_mountains": "2021-06-14 21:23:36 -0600",
+      "minecraft:forest": "2021-06-14 21:19:00 -0600",
+      "minecraft:taiga": "2021-06-14 21:30:18 -0600",
+      "minecraft:snowy_tundra": "2021-06-14 21:19:35 -0600",
+      "minecraft:frozen_river": "2021-06-14 21:24:12 -0600",
+      "minecraft:river": "2021-06-14 21:24:07 -0600"
+    },
+    "done": false
+  },
+  "DataVersion": 2586
+}

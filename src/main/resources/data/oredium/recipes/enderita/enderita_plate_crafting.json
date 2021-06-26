@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": {
+        "item": "oredium:enderita"
+    },
+    "result": "oredium:enderita_plate",
+    "experience": 0.2,
+    "cookingtime": 200
+}

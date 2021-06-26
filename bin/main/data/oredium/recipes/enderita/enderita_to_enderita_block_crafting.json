@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "oo",
+        "oo"
+    ],
+    "key": {
+        "o": {
+            "item": "oredium:enderita"
+        }
+    },
+    "result": {
+        "item": "oredium:enderita_block",
+        "count": 1
+    }
+}
