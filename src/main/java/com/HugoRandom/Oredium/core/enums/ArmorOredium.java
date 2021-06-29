@@ -15,7 +15,7 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 
 public enum ArmorOredium implements IArmorMaterial{
 
-	HUGODIUM("oredium:hugodium", 35, new int[]{5, 8, 10, 4}, 11, SoundEvents.ARMOR_EQUIP_NETHERITE, 2.0F, 0.5F, () -> { return Ingredient.of(ItemInit.HUGODIUM_INGOT.get()); }),
+	HUGODIUM("oredium:hugodium", 35, new int[]{5, 8, 10, 5}, 11, SoundEvents.ARMOR_EQUIP_NETHERITE, 2.0F, 0.5F, () -> { return Ingredient.of(ItemInit.HUGODIUM_INGOT.get()); }),
 	ALEZARITA("oredium:alezarita", 34, new int[]{4, 8, 10, 4}, 12, SoundEvents.ARMOR_EQUIP_NETHERITE, 1.5F, 0.2F, () -> { return Ingredient.of(ItemInit.ALEZARITA_INGOT.get()); }),
 	AXIDITA("oredium:axidita", 30, new int[]{3, 6, 8, 3}, 12, SoundEvents.ARMOR_EQUIP_DIAMOND, 0.5F, 0.0F, () -> {return Ingredient.of(ItemInit.AXIDITA.get()); }),
 	FRANITOLINA("oredium:franitolina", 30, new int[]{3, 6, 8, 3}, 15, SoundEvents.ARMOR_EQUIP_DIAMOND, 0.5F, 0.1F, () -> { return Ingredient.of(ItemInit.FRANITOLINA_INGOT.get()); }),
@@ -23,15 +23,8 @@ public enum ArmorOredium implements IArmorMaterial{
 	SHINE("oredium:shine", 17, new int[]{2, 5, 6, 2}, 19, SoundEvents.ARMOR_EQUIP_GOLD, 0.0F, 0.0F, () -> {return Ingredient.of(ItemInit.SHINE_INGOT.get()); }),
 	CESARITA("oredium:cesarita", 30, new int[]{3, 6, 8, 3}, 10, SoundEvents.ARMOR_EQUIP_DIAMOND, 1.5F, 0.1F, () -> { return Ingredient.of(ItemInit.CESARITA_INGOT.get()); }),
 	CABALLERITA("oredium:caballerita", 27, new int[]{3, 6, 8, 3}, 12, SoundEvents.ARMOR_EQUIP_DIAMOND, 1.0F, 0.1F, () -> {return Ingredient.of(ItemInit.CABALLERITA_INGOT.get()); }),
-	ENDERIUM("oredium:enderium", 40, new int[]{4, 7, 9, 4}, 20, SoundEvents.ARMOR_EQUIP_NETHERITE, 3.0F, 0.1F, () -> { return Ingredient.of(ItemInit.ENDERIUM_INGOT.get()); });
-//	LEATHER("leather", 5, new int[]{1, 2, 3, 1}, 15, SoundEvents.ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> { return Ingredient.of(Items.LEATHER);}),
-//	CHAIN("chainmail", 15, new int[]{1, 4, 5, 2}, 12, SoundEvents.ARMOR_EQUIP_CHAIN, 0.0F, 0.0F, () -> { return Ingredient.of(Items.IRON_INGOT); }),
-//	IRON("iron", 15, new int[]{2, 5, 6, 2}, 9, SoundEvents.ARMOR_EQUIP_IRON, 0.0F, 0.0F, () -> { return Ingredient.of(Items.IRON_INGOT); }),
-//	GOLD("gold", 7, new int[]{1, 3, 5, 2}, 25, SoundEvents.ARMOR_EQUIP_GOLD, 0.0F, 0.0F, () -> { return Ingredient.of(Items.GOLD_INGOT); }),
-//	DIAMOND("diamond", 33, new int[]{3, 6, 8, 3}, 10, SoundEvents.ARMOR_EQUIP_DIAMOND, 2.0F, 0.0F, () -> { return Ingredient.of(Items.DIAMOND); }),
-//	TURTLE("turtle", 25, new int[]{2, 5, 6, 2}, 9, SoundEvents.ARMOR_EQUIP_TURTLE, 0.0F, 0.0F, () -> { return Ingredient.of(Items.SCUTE); }),
-//	NETHERITE("netherite", 37, new int[]{3, 6, 8, 3}, 15, SoundEvents.ARMOR_EQUIP_NETHERITE, 3.0F, 0.1F, () -> { return Ingredient.of(Items.NETHERITE_INGOT); });
-	
+	ENDERIUM("oredium:enderium", 36, new int[]{4, 7, 9, 4}, 20, SoundEvents.ARMOR_EQUIP_NETHERITE, 3.0F, 0.1F, () -> { return Ingredient.of(ItemInit.ENDERIUM_INGOT.get()); });
+
 	private static final int[] HEALTH_PER_SLOT = new int[]{13, 15, 16, 11};
 	private final String name;
 	private final int durabilityMultiplier;

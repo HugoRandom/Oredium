@@ -15,6 +15,7 @@ import org.apache.logging.log4j.Logger;
 
 import com.HugoRandom.Oredium.init.ArmorInit;
 import com.HugoRandom.Oredium.init.BlockInit;
+import com.HugoRandom.Oredium.init.FluidInit;
 import com.HugoRandom.Oredium.init.FoodInit;
 import com.HugoRandom.Oredium.init.ItemInit;
 import com.HugoRandom.Oredium.init.ParticleInit;
@@ -35,12 +36,14 @@ public class Oredium
     	IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
         bus.addListener(this::setup);
         
-        ItemInit.ITEMS.register(bus);
-        FoodInit.FOODS.register(bus);
-        ToolInit.TOOLS.register(bus);
-        ArmorInit.ARMORS.register(bus);
+        FluidInit.FLUIDS.register(bus);
         BlockInit.BLOCKS.register(bus);
+        ItemInit.ITEMS.register(bus);    
+        FoodInit.FOODS.register(bus);       
+        ArmorInit.ARMORS.register(bus);           
+        ToolInit.TOOLS.register(bus);
         ParticleInit.PARTICLES.register(bus);
+      
         MinecraftForge.EVENT_BUS.addListener(EventPriority.HIGH, OreGeneration::generateOres);
         MinecraftForge.EVENT_BUS.register(this);
         MinecraftForge.EVENT_BUS.register(ArmorEvents.class);
@@ -50,7 +53,7 @@ public class Oredium
     {
 
     }    
-    
+        
     public static class OrediumTabItems extends ItemGroup{
 
 		public OrediumTabItems(String label) {
@@ -128,6 +131,17 @@ public class Oredium
 			items.add(FoodInit.HUGODIUM_SMOOTHIE.get().getDefaultInstance());
 			items.add(FoodInit.PEPENNE.get().getDefaultInstance());		    		
 			items.add(FoodInit.SHINE_CUPCAKE.get().getDefaultInstance());
+			// Buckets
+			items.add(ItemInit.ALEZARITA_BUCKET.get().getDefaultInstance());	
+			items.add(ItemInit.AXIDITA_BUCKET.get().getDefaultInstance());
+			items.add(ItemInit.CABALLERITA_BUCKET.get().getDefaultInstance());	
+			items.add(ItemInit.CESARITA_BUCKET.get().getDefaultInstance());	
+			items.add(ItemInit.ENDERIUM_BUCKET.get().getDefaultInstance());
+			items.add(ItemInit.FRANITOLINA_BUCKET.get().getDefaultInstance());
+			items.add(ItemInit.HUGODIUM_BUCKET.get().getDefaultInstance());
+			items.add(ItemInit.INFERNUM_BUCKET.get().getDefaultInstance());
+			items.add(ItemInit.MIGUELITIO_BUCKET.get().getDefaultInstance());
+			items.add(ItemInit.SHINE_BUCKET.get().getDefaultInstance());
 			// Enderita and Enderium
 			items.add(ItemInit.ENDERITA_PLATE.get().getDefaultInstance());
 			items.add(ItemInit.ENDERITA_CRYSTAL.get().getDefaultInstance());

@@ -36,7 +36,7 @@ renderClouds:fast
 resourcePacks:[]
 incompatibleResourcePacks:[]
 lastServer:
-lang:es_mx
+lang:es_es
 chatVisibility:0
 chatOpacity:1.0
 chatLineSpacing:0.0

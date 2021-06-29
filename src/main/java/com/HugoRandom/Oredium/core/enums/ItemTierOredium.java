@@ -12,24 +12,15 @@ public enum ItemTierOredium implements IItemTier{
 
 	// Material's Tiers
 	
-	HUGODIUM(4, 1796, 8.5f, 3.5f, 13, () -> {
-	      return Ingredient.of(ItemInit.HUGODIUM_INGOT.get()); }),
-	ALEZARITA(3, 1700, 8.0f, 3.0f, 12, () -> {
-	      return Ingredient.of(ItemInit.ALEZARITA_INGOT.get()); }),
-	AXIDITA(3, 1101, 7.0f, 2.5f, 12, () -> {
-	      return Ingredient.of(ItemInit.AXIDITA.get()); }),
-	FRANITOLINA(3, 1430, 7.0f, 3.0f, 15, () -> {
-	      return Ingredient.of(ItemInit.FRANITOLINA_INGOT.get()); }),
-	MIGUELITIO(4, 2434, 9.5f, 4.5f, 17, () -> {
-	      return Ingredient.of(ItemInit.MIGUELITIO_INGOT.get()); }),
-	SHINE(2, 300, 4.5f, 3.0f, 17, () -> {
-	      return Ingredient.of(ItemInit.SHINE_INGOT.get()); }),
-	CESARITA(3, 1637, 8.0f, 3.0f, 10, () -> {
-	      return Ingredient.of(ItemInit.CESARITA_INGOT.get()); }),
-	CABALLERITA(3, 1509, 7.5f, 3.0f, 11, () -> {
-	      return Ingredient.of(ItemInit.CABALLERITA_INGOT.get()); }),
-	ENDERIUM(4, 2238, 8.5f, 4.0f, 120, () -> {
-	      return Ingredient.of(ItemInit.ENDERIUM_INGOT.get()); });
+	HUGODIUM(4, 1896, 8.5f, 3.5f, 13, () -> { return Ingredient.of(ItemInit.HUGODIUM_INGOT.get()); }),
+	ALEZARITA(3, 1700, 8.0f, 3.5f, 12, () -> { return Ingredient.of(ItemInit.ALEZARITA_INGOT.get()); }),
+	AXIDITA(3, 1101, 6.5f, 2.5f, 12, () -> { return Ingredient.of(ItemInit.AXIDITA.get()); }),
+	FRANITOLINA(3, 1430, 7.5f, 3.0f, 15, () -> { return Ingredient.of(ItemInit.FRANITOLINA_INGOT.get()); }),
+	MIGUELITIO(4, 2434, 9.0f, 4.0f, 17, () -> { return Ingredient.of(ItemInit.MIGUELITIO_INGOT.get()); }),
+	SHINE(2, 300, 4.5f, 3.0f, 17, () -> { return Ingredient.of(ItemInit.SHINE_INGOT.get()); }),
+	CESARITA(3, 1607, 7.0f, 3.0f, 10, () -> { return Ingredient.of(ItemInit.CESARITA_INGOT.get()); }),
+	CABALLERITA(3, 1429, 7.0f, 3.0f, 11, () -> { return Ingredient.of(ItemInit.CABALLERITA_INGOT.get()); }),
+	ENDERIUM(4, 2110, 8.0f, 4.0f, 22, () -> { return Ingredient.of(ItemInit.ENDERIUM_INGOT.get()); });
 	
 	private final int miningLevel;
 	private final int durability;

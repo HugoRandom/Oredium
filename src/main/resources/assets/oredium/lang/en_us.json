@@ -1,5 +1,5 @@
 {	
-	// Ores miguelitio
+	// Ores
 	"block.oredium.hugodium_ore": "Hugodium Ore",
 	"block.oredium.alezarita_ore": "Alezarita Ore",	
 	"block.oredium.axidita_ore": "Axidita Ore",	
@@ -29,7 +29,18 @@
 	"item.oredium.enderium_ingot": "Enderium Ingot",
 	// Gems
 	"item.oredium.axidita": "Axidita",	
-	"item.oredium.enderita": "Enderita",	
+	"item.oredium.enderita": "Enderita",
+	// Buckets
+	"item.oredium.hugodium_bucket": "Molten Hugodium Bucket",
+	"item.oredium.axidita_bucket": "Molten Axidita Bucket",	
+	"item.oredium.alezarita_bucket": "Molten Alezarita Bucket",	
+	"item.oredium.franitolina_bucket": "Molten Franitolina Bucket",
+	"item.oredium.miguelitio_bucket": "Molten Miguelitio Bucket",
+	"item.oredium.shine_bucket": "Molten Shine Bucket",
+	"item.oredium.cesarita_bucket": "Molten Cesarita Bucket",
+	"item.oredium.caballerita_bucket": "Molten Caballerita Bucket",
+	"item.oredium.enderium_bucket": "Molten Enderium Bucket",
+	"item.oredium.infernum_bucket": "Infernum Bucket",
 	// Blocks
 	"block.oredium.hugodium_block": "Hugodium Block",
 	"block.oredium.alezarita_block": "Alezarita Block",	
@@ -52,6 +63,16 @@
 	"block.oredium.cesarita_lamp": "Cesarita Lamp",
 	"block.oredium.caballerita_lamp": "Caballerita Lamp",
 	"block.oredium.enderita_lamp": "Enderita Lamp",	
+	// Materials
+	"material.oredium.hugodium": "Hugodium",
+	"material.oredium.alezarita": "Alezarita",
+	"material.oredium.axidita": "Axidita",
+	"material.oredium.franitolina": "Franitolina",
+	"material.oredium.miguelitio": "Miguelitio",
+	"material.oredium.shine": "Shine",
+	"material.oredium.cesarita": "Cesarita",
+	"material.oredium.caballerita": "Caballerita",
+	"material.oredium.enderium": "Enderium",
 	// Swords
 	"item.oredium.hugodium_sword": "Hugodium Sword",
 	"item.oredium.alezarita_sword": "Alezarita Sword",
@@ -170,6 +191,16 @@
 	// Special Item
 	"item.oredium.oredium_amulet": "Oredium Amulet",
 	"item.oredium.special_item": "Special Item",
+	// Fluids
+	"fluid.oredium.molten_hugodium": "Molten Hugodium",
+	"fluid.oredium.molten_alezarita": "Molten Alezarita",	
+	"fluid.oredium.molten_franitolina": "Molten Franitolina",
+	"fluid.oredium.molten_miguelitio": "Molten Miguelitio",
+	"fluid.oredium.molten_shine": "Molten Shine",
+	"fluid.oredium.molten_cesarita": "Molten Cesarita",
+	"fluid.oredium.molten_caballerita": "Molten Caballerita",
+	"fluid.oredium.molten_enderium": "Molten Enderium",
+	"fluid.oredium.infernum": "Infernum",
 	// Tootltips - Armor
 	"tooltip.hugodium_armor": "\u00A7cThe Fastest Miner of the Server",
 	"tooltip.alezarita_armor": "\u00A78Run Run Bodywash",
