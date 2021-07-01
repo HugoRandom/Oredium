@@ -6,16 +6,16 @@
       	"amount": 432
     },
     {
-      	"name": "tconstruct:magma",
-      	"amount": 432
+      	"tag": "forge:magma",
+      	"amount": 250
     },
     {
-      	"name": "oredium:hugodium",
+      	"name": "oredium:molten_hugodium",
       	"amount": 144
     },
     {
       	"name": "tconstruct:blood",
-      	"amount": 144
+      	"amount": 250
     }
   	],
   	"result": {

@@ -52,6 +52,8 @@ public class ItemInit {
 	
 	public static final RegistryObject<Item> AXIDITA = ITEMS.register("axidita", 
 			() -> new Item(new Item.Properties()));
+	public static final RegistryObject<Item> AXIDITA_NUGGET = ITEMS.register("axidita_nugget", 
+			() -> new Item(new Item.Properties()));
 	public static final RegistryObject<Item> AXIDITA_BUCKET = ITEMS.register("axidita_bucket", 
 			() -> new BucketItem(FluidInit.AXIDITA, new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1)));
 	public static final RegistryObject<BlockItem> AXIDITA_ORE = ITEMS.register("axidita_ore", 
@@ -172,6 +174,8 @@ public class ItemInit {
 			() -> new BucketItem(FluidInit.INFERNUM, new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1)));
 	
 	// Mixtos
+	public static final RegistryObject<BlockItem> OREDIUM_BLOCK = ITEMS.register("oredium_block", 
+			() -> new BlockItem(BlockInit.OREDIUM_BLOCK.get(), new Item.Properties()));
 	
 	public static final RegistryObject<Item> OREDIUM_AMULET = ITEMS.register("oredium_amulet", 
 			() -> new Item(new Item.Properties()

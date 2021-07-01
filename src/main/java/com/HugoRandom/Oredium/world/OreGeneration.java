@@ -19,7 +19,7 @@ public class OreGeneration {
 			generationOredium(event, OreFeatureConfig.FillerBlockType.NATURAL_STONE, 
 					BlockInit.AXIDITA_ORE.get().defaultBlockState(), 4, 8, 24, 6);	
 			generationOredium(event, OreFeatureConfig.FillerBlockType.NATURAL_STONE, 
-					BlockInit.SHINE_ORE.get().defaultBlockState(), 8, 5, 64, 25);	
+					BlockInit.SHINE_ORE.get().defaultBlockState(), 8, 5, 64, 20);	
 			generationOredium(event, OreFeatureConfig.FillerBlockType.NATURAL_STONE, 
 					BlockInit.CESARITA_ORE.get().defaultBlockState(), 5, 5, 16, 5);	
 			generationOredium(event, OreFeatureConfig.FillerBlockType.NATURAL_STONE, 
@@ -35,9 +35,9 @@ public class OreGeneration {
 			generationOredium(event, OreFeatureConfig.FillerBlockType.NETHERRACK, 
 					BlockInit.HUGODIUM_ORE.get().defaultBlockState(), 4, 32, 64, 6);
 			generationOredium(event, OreFeatureConfig.FillerBlockType.NETHER_ORE_REPLACEABLES, 
-					BlockInit.ALEZARITA_ORE.get().defaultBlockState(), 7, 8, 100, 15);
+					BlockInit.ALEZARITA_ORE.get().defaultBlockState(), 7, 8, 100, 14);
 			generationOredium(event, OreFeatureConfig.FillerBlockType.NETHERRACK, 
-					BlockInit.MIGUELITIO_ORE.get().defaultBlockState(), 6, 24, 100, 15);
+					BlockInit.MIGUELITIO_ORE.get().defaultBlockState(), 6, 24, 100, 14);
 		}
 	}
 		

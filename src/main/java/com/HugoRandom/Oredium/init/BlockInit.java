@@ -1,6 +1,7 @@
 package com.HugoRandom.Oredium.init;
 
 import com.HugoRandom.Oredium.Oredium;
+import com.HugoRandom.Oredium.common.blocks.OrediumBlock;
 import com.HugoRandom.Oredium.common.blocks.alezarita.*;
 import com.HugoRandom.Oredium.common.blocks.axidita.*;
 import com.HugoRandom.Oredium.common.blocks.caballerita.*;
@@ -85,4 +86,7 @@ public class BlockInit {
 	// Infernum	
     public static final RegistryObject<FlowingFluidBlock> INFERNUM = BLOCKS.register("infernum", () -> new Infernum());
     
+    // Mix
+    public static final RegistryObject<Block> OREDIUM_BLOCK = BLOCKS.register("oredium_block", () -> new OrediumBlock());
+	
 }

@@ -7,12 +7,12 @@
   	],
   	"result": {
     	"fluid": "tconstruct:molten_franitolina",
-    	"amount": 1152
+    	"amount": 144
   	},
   	"byproducts":
     {
       	"fluid": "tconstruct:molten_iron",
-      	"amount": 384
+      	"amount": 1152
     },
   	"temperature": 1000,
   	"time": 300,

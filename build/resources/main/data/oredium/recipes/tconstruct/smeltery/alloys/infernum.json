@@ -1,0 +1,26 @@
+{
+  	"type": "tconstruct:alloy",
+  	"inputs": [
+    {
+      	"name": "minecraft:lava",
+      	"amount": 432
+    },
+    {
+      	"name": "tconstruct:magma",
+      	"amount": 432
+    },
+    {
+      	"name": "oredium:hugodium",
+      	"amount": 144
+    },
+    {
+      	"name": "tconstruct:blood",
+      	"amount": 144
+    }
+  	],
+  	"result": {
+    	"fluid": "oredium:infernum",
+    	"amount": 432
+  	},
+  	"temperature": 1500
+}

@@ -79,6 +79,7 @@ public class Oredium
 			items.add(ItemInit.SHINE_ORE.get().getDefaultInstance());	
 			// Nuggets
 			items.add(ItemInit.ALEZARITA_NUGGET.get().getDefaultInstance());
+			items.add(ItemInit.AXIDITA_NUGGET.get().getDefaultInstance());
 			items.add(ItemInit.CABALLERITA_NUGGET.get().getDefaultInstance());
 			items.add(ItemInit.CESARITA_NUGGET.get().getDefaultInstance());
 			items.add(ItemInit.ENDERIUM_NUGGET.get().getDefaultInstance());
@@ -86,8 +87,9 @@ public class Oredium
 			items.add(ItemInit.HUGODIUM_NUGGET.get().getDefaultInstance());
 			items.add(ItemInit.MIGUELITIO_NUGGET.get().getDefaultInstance());
 			items.add(ItemInit.SHINE_NUGGET.get().getDefaultInstance());
-			// Ingots
+			// Ingots and Gems
 			items.add(ItemInit.ALEZARITA_INGOT.get().getDefaultInstance());
+			items.add(ItemInit.AXIDITA.get().getDefaultInstance());
 			items.add(ItemInit.CABALLERITA_INGOT.get().getDefaultInstance());
 			items.add(ItemInit.CESARITA_INGOT.get().getDefaultInstance());
 			items.add(ItemInit.ENDERIUM_INGOT.get().getDefaultInstance());
@@ -95,9 +97,12 @@ public class Oredium
 			items.add(ItemInit.HUGODIUM_INGOT.get().getDefaultInstance());
 			items.add(ItemInit.MIGUELITIO_INGOT.get().getDefaultInstance());
 			items.add(ItemInit.SHINE_INGOT.get().getDefaultInstance());
-			// Gems
-			items.add(ItemInit.AXIDITA.get().getDefaultInstance());
-			items.add(ItemInit.ENDERITA.get().getDefaultInstance());			
+			// Enderita, Enderium and MIX
+			items.add(ItemInit.ENDERITA.get().getDefaultInstance());	
+			items.add(ItemInit.ENDERITA_PLATE.get().getDefaultInstance());
+			items.add(ItemInit.ENDERITA_CRYSTAL.get().getDefaultInstance());
+			items.add(ItemInit.ENDERIUM_GEM.get().getDefaultInstance());
+			items.add(ItemInit.OREDIUM_AMULET.get().getDefaultInstance());
 			// Blocks
 			items.add(ItemInit.ALEZARITA_BLOCK.get().getDefaultInstance());	
 			items.add(ItemInit.AXIDITA_BLOCK.get().getDefaultInstance());
@@ -110,6 +115,7 @@ public class Oredium
 			items.add(ItemInit.HUGODIUM_BLOCK.get().getDefaultInstance());
 			items.add(ItemInit.MIGUELITIO_BLOCK.get().getDefaultInstance());
 			items.add(ItemInit.SHINE_BLOCK.get().getDefaultInstance());
+			items.add(ItemInit.OREDIUM_BLOCK.get().getDefaultInstance());
 			// Lamps
 			items.add(ItemInit.ALEZARITA_LAMP.get().getDefaultInstance());	
 			items.add(ItemInit.AXIDITA_LAMP.get().getDefaultInstance());
@@ -142,12 +148,7 @@ public class Oredium
 			items.add(ItemInit.INFERNUM_BUCKET.get().getDefaultInstance());
 			items.add(ItemInit.MIGUELITIO_BUCKET.get().getDefaultInstance());
 			items.add(ItemInit.SHINE_BUCKET.get().getDefaultInstance());
-			// Enderita and Enderium
-			items.add(ItemInit.ENDERITA_PLATE.get().getDefaultInstance());
-			items.add(ItemInit.ENDERITA_CRYSTAL.get().getDefaultInstance());
-			items.add(ItemInit.ENDERIUM_GEM.get().getDefaultInstance());
-			// Specials
-			items.add(ItemInit.OREDIUM_AMULET.get().getDefaultInstance());
+			// Specials			
 			items.add(ItemInit.SPECIAL_ITEM.get().getDefaultInstance());					
 			super.fillItemList(items);
 		}

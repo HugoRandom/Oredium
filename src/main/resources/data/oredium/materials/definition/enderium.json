@@ -5,7 +5,7 @@
   	"fluid": "oredium:molten_enderium",
   	"fluidPerUnit": 144,
   	"textColor": "#8827B4",
-  	"temperature": 1500,
+  	"temperature": 2000,
   	"traits": [
     	{
       		"name": "tconstruct:necrotic",

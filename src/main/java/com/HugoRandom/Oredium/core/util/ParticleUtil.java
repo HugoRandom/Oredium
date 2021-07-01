@@ -1,7 +1,7 @@
 package com.HugoRandom.Oredium.core.util;
 
 import com.HugoRandom.Oredium.Oredium;
-import com.HugoRandom.Oredium.common.particles.EnderiumParticle;
+import com.HugoRandom.Oredium.common.particles.OrediumParticle;
 import com.HugoRandom.Oredium.common.particles.FranitolinaParticle;
 import com.HugoRandom.Oredium.common.particles.ShineParticle;
 import com.HugoRandom.Oredium.init.ParticleInit;
@@ -21,6 +21,6 @@ public class ParticleUtil {
 	public static void RegisterParticles(ParticleFactoryRegisterEvent event) {
 		Minecraft.getInstance().particleEngine.register(ParticleInit.SHINE_PARTICLE.get(), ShineParticle.Factory :: new);
 		Minecraft.getInstance().particleEngine.register(ParticleInit.FRANITOLINA_PARTICLE.get(), FranitolinaParticle.Factory :: new);
-		Minecraft.getInstance().particleEngine.register(ParticleInit.ENDERIUM_PARTICLE.get(), EnderiumParticle.Factory :: new);
+		Minecraft.getInstance().particleEngine.register(ParticleInit.OREDIUM_PARTICLE.get(), OrediumParticle.Factory :: new);
 	}
 }

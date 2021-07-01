@@ -4,6 +4,7 @@
     "#forge:storage_blocks/miguelitio",
     "#forge:storage_blocks/hugodium",
     "#forge:storage_blocks/alezarita",
+    "#forge:storage_blocks/enderium",
     {
       "id": "#forge:storage_blocks/alezarita",
       "required": false
@@ -14,6 +15,10 @@
     },
     {
       "id": "#forge:storage_blocks/miguelitio",
+      "required": false
+    },
+    {
+      "id": "#forge:storage_blocks/enderium",
       "required": false
     }
   ]

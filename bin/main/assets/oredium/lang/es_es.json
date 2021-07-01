@@ -12,6 +12,7 @@
 	// Pepitas
 	"item.oredium.hugodium_nugget": "Pepita de Hugodium",	
 	"item.oredium.alezarita_nugget": "Pepita de Alezarita",	
+	"item.oredium.axidita_nugget": "Pepita de Axidita",
 	"item.oredium.franitolina_nugget": "Pepita de Franitolina",
 	"item.oredium.miguelitio_nugget": "Pepita de Miguelitio",	
 	"item.oredium.shine_nugget": "Pepita de Shine",	
@@ -53,6 +54,7 @@
 	"block.oredium.enderita_block": "Bloque de Enderita",
 	"block.oredium.refined_enderita_block": "Bloque de Enderita Refinada",
 	"block.oredium.enderium_block": "Bloque de Enderium",
+	"block.oredium.oredium_block": "Bloque de Oredium",
 	// Lampara
 	"block.oredium.hugodium_lamp": "Lampara de Hugodium",
 	"block.oredium.alezarita_lamp": "Lampara de Alezarita",	

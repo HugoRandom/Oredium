@@ -30,6 +30,17 @@
 	// Gemas
 	"item.oredium.axidita": "Axidita",	
 	"item.oredium.enderita": "Enderita",	
+	// Cubetas
+	"item.oredium.hugodium_bucket": "Cubo de Hugodium Fundido",
+	"item.oredium.alezarita_bucket": "Cubo de Alezarita Fundida",	
+	"item.oredium.axidita_bucket": "Cubo de Axidita Fundida",	
+	"item.oredium.franitolina_bucket": "Cubo de Franitolina Fundida",
+	"item.oredium.miguelitio_bucket": "Cubo de Miguelitio Fundido",
+	"item.oredium.shine_bucket": "Cubo de Shine Fundido",
+	"item.oredium.cesarita_bucket": "Cubo de Cesarita Fundido",
+	"item.oredium.caballerita_bucket": "Cubo de Caballerita Fundida",
+	"item.oredium.enderium_bucket": "Cubo de Enderium Fundido",
+	"item.oredium.infernum_bucket": "Cubo de Infernum",
 	// Bloques
 	"block.oredium.hugodium_block": "Bloque de Hugodium",
 	"block.oredium.alezarita_block": "Bloque de Alezarita",	
@@ -42,6 +53,7 @@
 	"block.oredium.enderita_block": "Bloque de Enderita",
 	"block.oredium.refined_enderita_block": "Bloque de Enderita Refinada",
 	"block.oredium.enderium_block": "Bloque de Enderium",
+	"block.oredium.oredium_block": "Bloque de Oredium",
 	// Lampara
 	"block.oredium.hugodium_lamp": "Lampara de Hugodium",
 	"block.oredium.alezarita_lamp": "Lampara de Alezarita",	
@@ -51,7 +63,17 @@
 	"block.oredium.shine_lamp": "Lampara de Shine",	
 	"block.oredium.cesarita_lamp": "Lampara de Cesarita",
 	"block.oredium.caballerita_lamp": "Lampara de Caballerita",
-	"block.oredium.enderita_lamp": "Lampara de Enderita",	
+	"block.oredium.enderita_lamp": "Lampara de Enderita",
+	// Materiales
+	"material.oredium.hugodium": "Hugodium",
+	"material.oredium.alezarita": "Alezarita",
+	"material.oredium.axidita": "Axidita",
+	"material.oredium.franitolina": "Franitolina",
+	"material.oredium.miguelitio": "Miguelitio",
+	"material.oredium.shine": "Shine",
+	"material.oredium.cesarita": "Cesarita",
+	"material.oredium.caballerita": "Caballerita",
+	"material.oredium.enderium": "Enderium",	
 	// Espadas
 	"item.oredium.hugodium_sword": "Espada de Hugodium",
 	"item.oredium.alezarita_sword": "Espada de Alezarita",
@@ -61,6 +83,7 @@
 	"item.oredium.shine_sword": "Espada de Shine",
 	"item.oredium.cesarita_sword": "Espada de Cesarita",
 	"item.oredium.caballerita_sword": "Espada de Caballerita",
+	"item.oredium.enderium_sword": "Espada de Enderium",
 	// Picos
 	"item.oredium.hugodium_pickaxe": "Pico de Hugodium",	
 	"item.oredium.alezarita_pickaxe": "Pico de Alezarita",	
@@ -70,6 +93,7 @@
 	"item.oredium.shine_pickaxe": "Pico de Shine",	
 	"item.oredium.cesarita_pickaxe": "Pico de Cesarita",
 	"item.oredium.caballerita_pickaxe": "Pico de Caballerita",
+	"item.oredium.enderium_pickaxe": "Pico de Enderium",
 	// Hachas
 	"item.oredium.hugodium_axe": "Hacha de Hugodium",
 	"item.oredium.alezarita_axe": "Hacha de Alezarita",
@@ -79,6 +103,7 @@
 	"item.oredium.shine_axe": "Hacha de Shine",
 	"item.oredium.cesarita_axe": "Hacha de Cesarita",
 	"item.oredium.caballerita_axe": "Hacha de Caballerita",
+	"item.oredium.enderium_axe": "Hacha de Enderium",
 	// Palas
 	"item.oredium.hugodium_shovel": "Pala de Hugodium",
 	"item.oredium.alezarita_shovel": "Pala de Alezarita",
@@ -88,6 +113,7 @@
 	"item.oredium.shine_shovel": "Pala de Shine",
 	"item.oredium.cesarita_shovel": "Pala de Cesarita",
 	"item.oredium.caballerita_shovel": "Pala de Caballerita",
+	"item.oredium.enderium_shovel": "Pala de Enderium",
 	// Azadas
 	"item.oredium.hugodium_hoe": "Azada de Hugodium",
 	"item.oredium.alezarita_hoe": "Azada de Alezarita",
@@ -97,6 +123,7 @@
 	"item.oredium.shine_hoe": "Azada de Shine",
 	"item.oredium.cesarita_hoe": "Azada de Cesarita",
 	"item.oredium.caballerita_hoe": "Azada de Caballerita",
+	"item.oredium.enderium_hoe": "Azada de Enderium",
 	// Cascos
 	"item.oredium.hugodium_helmet": "Casco de Hugodium",
 	"item.oredium.alezarita_helmet": "Casco de Alezarita",	
@@ -138,18 +165,44 @@
 	"item.oredium.caballerita_boots": "Botas de Caballerita",	
 	"item.oredium.enderium_boots": "Botas de Enderium",	
 	// Foods
-	"item.oredium.caballerita_cake": "Tarta de Caballeria",
+	"item.oredium.alezarita_chicken": "Pollo a la Alezarita",
+	"tooltip.alezarita_chicken": "\u00A78Pero que rico Posho",
+	"item.oredium.caballerita_cake": "Tarta de Caballerita",
+	"tooltip.caballerita_cake": "\u00A7ePicante",	
+	"item.oredium.clorets": "Clorets",
+	"tooltip.clorets": "\u00A7aPara quitar lo mareado",
+	"item.oredium.blue_clorets": "Blue Clorets",
+	"tooltip.blue_clorets": "\u00A7aPara quitar lo mareado \u00A79y Correr",
 	"item.oredium.enderita_apple": "Manzana de Enderita",
+	"tooltip.enderita_apple": "\u00A75Un tantito de subidon",
 	"item.oredium.enderium_apple": "Manzana de Enderium",
+	"tooltip.enderium_apple": "\u00A75Un gran subidon",
+	"item.oredium.fraopu": "Fraopu",
+	"tooltip.fraopu": "\u00A76El poder de los 32",
+	"item.oredium.hugodium_smoothie": "Licuado de Hugodium",
+	"tooltip.hugodium_smoothie": "\u00A7cSandia, sandia, sandia...",
 	"item.oredium.pepenne": "Pepenne",
+	"tooltip.pepenne": "\u00A7bFatto con fatica",
 	"item.oredium.shine_cupcake": "Pastelito de Shine",
+	"tooltip.shine_cupcake": "\u00A79Debajo del Mar",
 	// Enderita and Enderium
 	"item.oredium.enderita_plate": "Placa de Enderita",
 	"item.oredium.enderita_crystal": "Cristal de Enderita",	
 	"item.oredium.enderium_gem": "Gema de Enderium",
 	// Special Item
+	"item.oredium.oredium_amulet": "Amuleto de Oredium",
 	"item.oredium.special_item": "Objeto Especial",
-	// Tootltips - Armor
+	// Liquidos
+	"fluid.oredium.molten_hugodium": "Hugodium Fundido",
+	"fluid.oredium.molten_alezarita": "Alezarita Fundido",	
+	"fluid.oredium.molten_franitolina": "Franitolina Fundido",
+	"fluid.oredium.molten_miguelitio": "Miguelitio Fundido",
+	"fluid.oredium.molten_shine": "Shine Fundido",
+	"fluid.oredium.molten_cesarita": "Cesarita Fundido",
+	"fluid.oredium.molten_caballerita": "Caballerita Fundido",
+	"fluid.oredium.molten_enderium": "Enderium Fundido",
+	"fluid.oredium.infernum": "Infernum",
+	// Tootltips - Armaduras
 	"tooltip.hugodium_armor": "\u00A7cEl minero mas rapido del Server",
 	"tooltip.alezarita_armor": "\u00A78Correle wey",
 	"tooltip.axidita_armor": "\u00A7aSigo Vivo, o algo asi",
@@ -159,13 +212,7 @@
 	"tooltip.cesarita_armor": "\u00A78El Perfeccionista",
 	"tooltip.caballerita_armor": "\u00A7eFuego? Donde?",
 	"tooltip.enderium_armor": "\u00A75Este es el fin...",
-	// Tootltips - Food
-	"tooltip.caballerita_cake": "\u00A7ePicante",
-	"tooltip.enderita_apple": "\u00A75Un pequeño subidon",
-	"tooltip.enderium_apple": "\u00A75Un gran subidon",
-	"tooltip.pepenne": "\u00A7bFatto con fatica",
-	"tooltip.shine_cupcake": "\u00A79Debajo del Mar",
-	// Tootltips - Specials
+	// Tootltips - Especiales
 	"tooltip.special_item.hold_shift": "Presiona \u00A7bShift \u00A7fto para mas informacion",
 	// TabGroups
 	"itemGroup.oredium_tab_items": "Oredium - Objetos",

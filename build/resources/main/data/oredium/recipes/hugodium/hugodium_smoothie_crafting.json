@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#O#",
+        "MSM",
+        " P "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:sugar"
+        },
+        "O": {
+            "item": "oredium:hugodium_nugget"
+        },
+        "M": {
+            "item": "minecraft:melon_slice"
+        },
+        "S": {
+            "item": "minecraft:snowball"
+        },
+        "P": {
+            "item": "minecraft:paper"
+        }
+    },
+    "result": {
+        "item": "oredium:hugodium_smoothie",
+        "count": 2
+    }
+}

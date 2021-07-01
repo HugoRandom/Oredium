@@ -5,7 +5,7 @@
   	"fluid": "oredium:molten_miguelitio",
   	"fluidPerUnit": 144,
   	"textColor": "#0FEDD9",
-  	"temperature": 1500,
+  	"temperature": 2000,
   	"traits": [
     	{
       		"name": "tconstruct:ductile",

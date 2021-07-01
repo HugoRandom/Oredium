@@ -9,11 +9,11 @@ com/HugoRandom/Oredium/common/blocks/miguelitio/MiguelitioLamp.java
  com.HugoRandom.Oredium.common.blocks.miguelitio.MiguelitioLamp
 com/HugoRandom/Oredium/common/armors/FranitolinaArmor.java
  com.HugoRandom.Oredium.common.armors.FranitolinaArmor
+com/HugoRandom/Oredium/common/particles/OrediumParticle.java
+ com.HugoRandom.Oredium.common.particles.OrediumParticle
+ com.HugoRandom.Oredium.common.particles.OrediumParticle$Factory
 com/HugoRandom/Oredium/common/armors/AlezaritaArmor.java
  com.HugoRandom.Oredium.common.armors.AlezaritaArmor
-com/HugoRandom/Oredium/common/particles/EnderiumParticle.java
- com.HugoRandom.Oredium.common.particles.EnderiumParticle
- com.HugoRandom.Oredium.common.particles.EnderiumParticle$Factory
 com/HugoRandom/Oredium/init/ArmorInit.java
  com.HugoRandom.Oredium.init.ArmorInit
 com/HugoRandom/Oredium/common/armors/HugodiumArmor.java
@@ -24,6 +24,10 @@ com/HugoRandom/Oredium/common/blocks/alezarita/AlezaritaLamp.java
  com.HugoRandom.Oredium.common.blocks.alezarita.AlezaritaLamp
 com/HugoRandom/Oredium/common/blocks/alezarita/AlezaritaOre.java
  com.HugoRandom.Oredium.common.blocks.alezarita.AlezaritaOre
+com/HugoRandom/Oredium/common/blocks/OrediumBlock.java
+ com.HugoRandom.Oredium.common.blocks.OrediumBlock
+com/HugoRandom/Oredium/common/blocks/caballerita/MoltenCaballerita.java
+ com.HugoRandom.Oredium.common.blocks.caballerita.MoltenCaballerita
 com/HugoRandom/Oredium/events/ArmorEvents.java
  com.HugoRandom.Oredium.events.ArmorEvents
 com/HugoRandom/Oredium/common/particles/ShineParticle.java
@@ -33,21 +37,33 @@ com/HugoRandom/Oredium/common/blocks/enderium/EnderiumBlock.java
  com.HugoRandom.Oredium.common.blocks.enderium.EnderiumBlock
 com/HugoRandom/Oredium/core/enums/ArmorOredium.java
  com.HugoRandom.Oredium.core.enums.ArmorOredium
+com/HugoRandom/Oredium/common/blocks/cesarita/MoltenCesarita.java
+ com.HugoRandom.Oredium.common.blocks.cesarita.MoltenCesarita
+com/HugoRandom/Oredium/common/foods/HugodiumSmoothie.java
+ com.HugoRandom.Oredium.common.foods.HugodiumSmoothie
 com/HugoRandom/Oredium/common/blocks/miguelitio/MiguelitioOre.java
  com.HugoRandom.Oredium.common.blocks.miguelitio.MiguelitioOre
 com/HugoRandom/Oredium/init/FoodInit.java
  com.HugoRandom.Oredium.init.FoodInit
+com/HugoRandom/Oredium/common/blocks/axidita/MoltenAxidita.java
+ com.HugoRandom.Oredium.common.blocks.axidita.MoltenAxidita
 com/HugoRandom/Oredium/common/blocks/enderita/EnderitaBlock.java
  com.HugoRandom.Oredium.common.blocks.enderita.EnderitaBlock
+com/HugoRandom/Oredium/common/foods/Clorets.java
+ com.HugoRandom.Oredium.common.foods.Clorets
 com/HugoRandom/Oredium/common/particles/FranitolinaParticle.java
  com.HugoRandom.Oredium.common.particles.FranitolinaParticle
  com.HugoRandom.Oredium.common.particles.FranitolinaParticle$Factory
 com/HugoRandom/Oredium/common/blocks/franitolina/FranitolinaLamp.java
  com.HugoRandom.Oredium.common.blocks.franitolina.FranitolinaLamp
+com/HugoRandom/Oredium/common/blocks/shine/MoltenShine.java
+ com.HugoRandom.Oredium.common.blocks.shine.MoltenShine
 com/HugoRandom/Oredium/common/items/SpecialItem.java
  com.HugoRandom.Oredium.common.items.SpecialItem
 com/HugoRandom/Oredium/common/blocks/shine/ShineOre.java
  com.HugoRandom.Oredium.common.blocks.shine.ShineOre
+com/HugoRandom/Oredium/common/foods/AlezaritaChicken.java
+ com.HugoRandom.Oredium.common.foods.AlezaritaChicken
 com/HugoRandom/Oredium/common/armors/EnderiumArmor.java
  com.HugoRandom.Oredium.common.armors.EnderiumArmor
 com/HugoRandom/Oredium/core/enums/ItemTierOredium.java
@@ -64,30 +80,44 @@ com/HugoRandom/Oredium/common/blocks/enderita/EnderitaOre.java
  com.HugoRandom.Oredium.common.blocks.enderita.EnderitaOre
 com/HugoRandom/Oredium/common/foods/CaballeritaCake.java
  com.HugoRandom.Oredium.common.foods.CaballeritaCake
+com/HugoRandom/Oredium/common/blocks/hugodium/MoltenHugodium.java
+ com.HugoRandom.Oredium.common.blocks.hugodium.MoltenHugodium
 com/HugoRandom/Oredium/common/blocks/miguelitio/MiguelitioBlock.java
  com.HugoRandom.Oredium.common.blocks.miguelitio.MiguelitioBlock
 com/HugoRandom/Oredium/common/foods/Pepenne.java
  com.HugoRandom.Oredium.common.foods.Pepenne
 com/HugoRandom/Oredium/common/blocks/caballerita/CaballeritaBlock.java
  com.HugoRandom.Oredium.common.blocks.caballerita.CaballeritaBlock
+com/HugoRandom/Oredium/common/blocks/miguelitio/MoltenMiguelitio.java
+ com.HugoRandom.Oredium.common.blocks.miguelitio.MoltenMiguelitio
+com/HugoRandom/Oredium/common/foods/Fraopu.java
+ com.HugoRandom.Oredium.common.foods.Fraopu
 com/HugoRandom/Oredium/common/blocks/axidita/AxiditaBlock.java
  com.HugoRandom.Oredium.common.blocks.axidita.AxiditaBlock
 com/HugoRandom/Oredium/common/foods/EnderiumApple.java
  com.HugoRandom.Oredium.common.foods.EnderiumApple
 com/HugoRandom/Oredium/common/blocks/enderita/RefinedEnderitaBlock.java
  com.HugoRandom.Oredium.common.blocks.enderita.RefinedEnderitaBlock
+com/HugoRandom/Oredium/common/blocks/franitolina/MoltenFranitolina.java
+ com.HugoRandom.Oredium.common.blocks.franitolina.MoltenFranitolina
 com/HugoRandom/Oredium/init/ToolInit.java
  com.HugoRandom.Oredium.init.ToolInit
+com/HugoRandom/Oredium/init/FluidInit.java
+ com.HugoRandom.Oredium.init.FluidInit
 com/HugoRandom/Oredium/common/armors/ShineArmor.java
  com.HugoRandom.Oredium.common.armors.ShineArmor
 com/HugoRandom/Oredium/common/blocks/cesarita/CesaritaBlock.java
  com.HugoRandom.Oredium.common.blocks.cesarita.CesaritaBlock
+com/HugoRandom/Oredium/common/blocks/enderium/MoltenEnderium.java
+ com.HugoRandom.Oredium.common.blocks.enderium.MoltenEnderium
 com/HugoRandom/Oredium/common/armors/AxiditaArmor.java
  com.HugoRandom.Oredium.common.armors.AxiditaArmor
 com/HugoRandom/Oredium/common/blocks/hugodium/HugodiumLamp.java
  com.HugoRandom.Oredium.common.blocks.hugodium.HugodiumLamp
 com/HugoRandom/Oredium/common/blocks/franitolina/FranitolinaOre.java
  com.HugoRandom.Oredium.common.blocks.franitolina.FranitolinaOre
+com/HugoRandom/Oredium/common/blocks/infernum/Infernum.java
+ com.HugoRandom.Oredium.common.blocks.infernum.Infernum
 com/HugoRandom/Oredium/common/blocks/enderita/EnderitaLamp.java
  com.HugoRandom.Oredium.common.blocks.enderita.EnderitaLamp
 com/HugoRandom/Oredium/common/foods/EnderitaApple.java
@@ -112,8 +142,12 @@ com/HugoRandom/Oredium/core/util/ParticleUtil.java
  com.HugoRandom.Oredium.core.util.ParticleUtil
 com/HugoRandom/Oredium/common/blocks/hugodium/HugodiumOre.java
  com.HugoRandom.Oredium.common.blocks.hugodium.HugodiumOre
+com/HugoRandom/Oredium/common/blocks/alezarita/MoltenAlezarita.java
+ com.HugoRandom.Oredium.common.blocks.alezarita.MoltenAlezarita
 com/HugoRandom/Oredium/common/blocks/franitolina/FranitolinaBlock.java
  com.HugoRandom.Oredium.common.blocks.franitolina.FranitolinaBlock
+com/HugoRandom/Oredium/common/foods/BlueClorets.java
+ com.HugoRandom.Oredium.common.foods.BlueClorets
 com/HugoRandom/Oredium/common/blocks/cesarita/CesaritaOre.java
  com.HugoRandom.Oredium.common.blocks.cesarita.CesaritaOre
 com/HugoRandom/Oredium/common/armors/MiguelitioArmor.java

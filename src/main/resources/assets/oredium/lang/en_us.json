@@ -12,6 +12,7 @@
 	// Nuggets
 	"item.oredium.hugodium_nugget": "Hugodium Nugget",	
 	"item.oredium.alezarita_nugget": "Alezarita Nugget",	
+	"item.oredium.axidita_nugget": "Axidita Nugget",	
 	"item.oredium.franitolina_nugget": "Franitolina Nugget",
 	"item.oredium.miguelitio_nugget": "Miguelitio Nugget",	
 	"item.oredium.shine_nugget": "Shine Nugget",	
@@ -53,6 +54,7 @@
 	"block.oredium.enderita_block": "Enderita Block",
 	"block.oredium.refined_enderita_block": "Refined Enderita Block",
 	"block.oredium.enderium_block": "Enderium Block",
+	"block.oredium.oredium_block": "Oredium Block",
 	// Lamps
 	"block.oredium.hugodium_lamp": "Hugodium Lamp",
 	"block.oredium.alezarita_lamp": "Alezarita Lamp",	

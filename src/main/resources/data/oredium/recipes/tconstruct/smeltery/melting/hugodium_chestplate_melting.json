@@ -7,12 +7,12 @@
   	],
   	"result": {
     	"fluid": "tconstruct:molten_hugodium",
-    	"amount": 1152
+    	"amount": 144
   	},
   	"byproducts":
     {
       	"fluid": "tconstruct:molten_diamond",
-      	"amount": 384
+      	"amount": 1152
     },
   	"temperature": 1500,
   	"time": 300,

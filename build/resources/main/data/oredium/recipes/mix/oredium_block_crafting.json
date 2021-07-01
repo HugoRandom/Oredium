@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#B#",
+        "BOB",
+        "#B#"
+    ],
+    "key": {
+        "B": {
+            "item": "oredium:enderium_block"
+        },        
+        "#": {
+            "item": "minecraft:iron_block"
+        },
+        "O": {
+            "item": "oredium:enderium_gem"
+        }
+    },
+    "result": {
+        "item": "oredium:oredium_block",
+        "count": 1
+    }
+}

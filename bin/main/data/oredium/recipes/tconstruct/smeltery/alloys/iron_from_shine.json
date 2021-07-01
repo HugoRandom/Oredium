@@ -1,0 +1,31 @@
+{
+  	"type": "tconstruct:alloy",
+  	"conditions": [
+    	{
+      		"value": {
+        		"tag": "forge:ingots/uranium",
+        		"type": "forge:tag_empty"
+      		},
+      		"type": "forge:not"
+    	}
+  	],
+  	"inputs": [
+	    {
+	      	"name": "oredium:molten_shine",
+	      	"amount": 432
+	    },
+	    {
+	      	"tag": "forge:magma",
+	      	"amount": 250
+	    },
+	    {
+	      	"name": "tconstruct:molten_uranium",
+	      	"amount": 288
+	    }
+  	],
+  	"result": {
+    	"fluid": "tconstruct:molten_iron",
+    	"amount": 432
+  	},
+  	"temperature": 1250
+}

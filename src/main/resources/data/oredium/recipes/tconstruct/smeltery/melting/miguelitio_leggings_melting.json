@@ -7,13 +7,18 @@
   	],
   	"result": {
     	"fluid": "tconstruct:molten_miguelitio",
-    	"amount": 1008
+    	"amount": 144
   	},
-  	"byproducts":
-    {
-      	"fluid": "tconstruct:molten_netherite",
-      	"amount": 336
-    },
+  	"byproducts": [
+	    {
+	      	"fluid": "tconstruct:molten_netherite",
+	      	"amount": 144
+	    },    
+	    {
+	      	"fluid": "tconstruct:molten_diamond",
+	      	"amount": 1008
+	    }
+    ],
   	"temperature": 1500,
   	"time": 300,
   	"conditions": [

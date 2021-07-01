@@ -9,11 +9,6 @@
     	"fluid": "tconstruct:molten_cesarita",
     	"amount": 576
   	},
-  	"byproducts":
-    {
-      	"fluid": "tconstruct:molten_iron",
-      	"amount": 192
-    },
   	"temperature": 1000,
   	"time": 200,
   	"conditions": [

@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "oO"
+    ],
+    "key": {
+        "o": {
+            "item": "oredium:clorets"
+        },
+        "O": {
+            "item": "oredium:shine_nugget"
+        }
+    },
+    "result": {
+        "item": "oredium:blue_clorets",
+        "count": 1
+    }
+}
