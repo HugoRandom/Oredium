@@ -4,7 +4,7 @@ license="All rights reserved"
 # issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/" 
 [[mods]] 
 modId="oredium"
-version="1.0"
+version="1.1.20"
 displayName="Oredium Mod"
 # logoFile="oredium.png"
 credits="Hi Mom, I'm programming in Minecraft"

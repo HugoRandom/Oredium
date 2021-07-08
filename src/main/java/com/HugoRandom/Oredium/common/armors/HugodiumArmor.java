@@ -23,7 +23,7 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 
 public class HugodiumArmor extends ArmorItem{
 
-	EffectInstance Effect = new EffectInstance(Effects.DIG_SPEED, 201, 1);
+	EffectInstance Effect = new EffectInstance(Effects.DIG_SPEED, 400, 1, false, false);
 	
 	public HugodiumArmor(EquipmentSlotType slot) {
 		super(ArmorOredium.HUGODIUM, 

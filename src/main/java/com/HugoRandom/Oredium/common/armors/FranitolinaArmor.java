@@ -21,7 +21,7 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 
 public class FranitolinaArmor extends ArmorItem{
 
-	EffectInstance Effect = new EffectInstance(Effects.LUCK, 201, 0, false, false);
+	EffectInstance Effect = new EffectInstance(Effects.DAMAGE_BOOST, 400, 0, false, false);
 	
 	public FranitolinaArmor(EquipmentSlotType slot) {
 		super(ArmorOredium.FRANITOLINA, 

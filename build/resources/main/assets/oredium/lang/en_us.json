@@ -12,6 +12,7 @@
 	// Nuggets
 	"item.oredium.hugodium_nugget": "Hugodium Nugget",	
 	"item.oredium.alezarita_nugget": "Alezarita Nugget",	
+	"item.oredium.axidita_nugget": "Axidita Nugget",	
 	"item.oredium.franitolina_nugget": "Franitolina Nugget",
 	"item.oredium.miguelitio_nugget": "Miguelitio Nugget",	
 	"item.oredium.shine_nugget": "Shine Nugget",	
@@ -195,6 +196,7 @@
 	// Fluids
 	"fluid.oredium.molten_hugodium": "Molten Hugodium",
 	"fluid.oredium.molten_alezarita": "Molten Alezarita",	
+	"fluid.oredium.molten_axidita": "Molten Axidita",	
 	"fluid.oredium.molten_franitolina": "Molten Franitolina",
 	"fluid.oredium.molten_miguelitio": "Molten Miguelitio",
 	"fluid.oredium.molten_shine": "Molten Shine",

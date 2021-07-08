@@ -28,8 +28,8 @@ public class EnderiumApple extends Item{
 			.effect(() -> new EffectInstance(Effects.ABSORPTION, 1200, 1), 1.0f)
 			.effect(() -> new EffectInstance(Effects.MOVEMENT_SPEED, 1200, 0), 1.0f)
 			.effect(() -> new EffectInstance(Effects.GLOWING, 100, 0), 1.0f)
-			.nutrition(8)
-			.saturationMod(0.8f)
+			.nutrition(15)
+			.saturationMod(1.0f)
 			.alwaysEat()
 			.build();
 	

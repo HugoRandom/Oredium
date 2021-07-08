@@ -25,8 +25,8 @@ public class EnderitaApple extends Item{
 	
 	public static final Food ENDERITA_APPLE = new Food.Builder()
 			.effect(() -> new EffectInstance(Effects.REGENERATION, 100, 0), 1.0f)
-			.nutrition(6)
-			.saturationMod(0.6f)
+			.nutrition(10)
+			.saturationMod(0.8f)
 			.alwaysEat()
 			.build();
 	

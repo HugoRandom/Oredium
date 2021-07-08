@@ -7,20 +7,20 @@
     },
     {
       	"tag": "forge:magma",
-      	"amount": 250
+      	"amount": 500
     },
     {
       	"name": "oredium:molten_hugodium",
       	"amount": 144
     },
     {
-      	"name": "tconstruct:blood",
+      	"name": "tconstruct:liquid_soul",
       	"amount": 250
     }
   	],
   	"result": {
     	"fluid": "oredium:infernum",
-    	"amount": 432
+    	"amount": 500
   	},
   	"temperature": 1500
 }

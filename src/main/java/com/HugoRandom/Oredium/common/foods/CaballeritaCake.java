@@ -23,7 +23,7 @@ public class CaballeritaCake extends Item{
 	
 	public static final Food CABALLERITA_CAKE = new Food.Builder()
 			.effect(() -> new EffectInstance(Effects.FIRE_RESISTANCE, 600, 0), 1.0f)
-			.nutrition(8)
+			.nutrition(10)
 			.saturationMod(0.6f)
 			.alwaysEat()
 			.build();

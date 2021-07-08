@@ -23,7 +23,7 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 
 public class AlezaritaArmor extends ArmorItem{
 
-	EffectInstance Effect = new EffectInstance(Effects.JUMP, 201, 0, false, false);
+	EffectInstance Effect = new EffectInstance(Effects.JUMP, 400, 0, false, false);
 	
 	public AlezaritaArmor(EquipmentSlotType slot) {
 		super(ArmorOredium.ALEZARITA, 

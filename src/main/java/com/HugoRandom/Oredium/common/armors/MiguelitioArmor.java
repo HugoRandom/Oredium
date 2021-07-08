@@ -23,7 +23,7 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 
 public class MiguelitioArmor extends ArmorItem{
 
-	EffectInstance Effect = new EffectInstance(Effects.DAMAGE_RESISTANCE, 201, 0);
+	EffectInstance Effect = new EffectInstance(Effects.DAMAGE_RESISTANCE, 400, 0, false, false);
 	public MiguelitioArmor(EquipmentSlotType slot) {
 		super(ArmorOredium.MIGUELITIO, 
 				slot, 

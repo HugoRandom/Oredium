@@ -24,7 +24,7 @@ public class BlueClorets extends Item{
 	
 	public static final Food BLUE_CLORETS = new Food.Builder()			
 			.effect(() -> new EffectInstance(Effects.MOVEMENT_SPEED, 100, 0), 1.0f)
-			.nutrition(1)
+			.nutrition(2)
 			.saturationMod(0.3f)
 			.alwaysEat()
 			.fast()

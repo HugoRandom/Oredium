@@ -22,7 +22,7 @@ public class Clorets extends Item{
 	}
 	
 	public static final Food CLORETS = new Food.Builder()			
-			.nutrition(1)
+			.nutrition(2)
 			.saturationMod(0.2f)
 			.alwaysEat()
 			.fast()

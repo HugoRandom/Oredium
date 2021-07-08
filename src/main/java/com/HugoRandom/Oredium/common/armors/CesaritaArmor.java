@@ -21,7 +21,7 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 
 public class CesaritaArmor extends ArmorItem{
 
-	EffectInstance Effect = new EffectInstance(Effects.NIGHT_VISION, 201, 0, false, false);
+	EffectInstance Effect = new EffectInstance(Effects.NIGHT_VISION, 400, 0, false, false);
 	
 	public CesaritaArmor(EquipmentSlotType slot) {
 		super(ArmorOredium.CESARITA, 

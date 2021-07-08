@@ -12,6 +12,7 @@
 	// Pepitas
 	"item.oredium.hugodium_nugget": "Pepita de Hugodium",	
 	"item.oredium.alezarita_nugget": "Pepita de Alezarita",	
+	"item.oredium.axidita_nugget": "Pepita de Axidita",
 	"item.oredium.franitolina_nugget": "Pepita de Franitolina",
 	"item.oredium.miguelitio_nugget": "Pepita de Miguelitio",	
 	"item.oredium.shine_nugget": "Pepita de Shine",	
@@ -194,12 +195,13 @@
 	"item.oredium.special_item": "Objeto Especial",
 	// Liquidos
 	"fluid.oredium.molten_hugodium": "Hugodium Fundido",
-	"fluid.oredium.molten_alezarita": "Alezarita Fundido",	
-	"fluid.oredium.molten_franitolina": "Franitolina Fundido",
+	"fluid.oredium.molten_alezarita": "Alezarita Fundida",	
+	"fluid.oredium.molten_axidita": "Axidita Fundida",	
+	"fluid.oredium.molten_franitolina": "Franitolina Fundida",
 	"fluid.oredium.molten_miguelitio": "Miguelitio Fundido",
 	"fluid.oredium.molten_shine": "Shine Fundido",
-	"fluid.oredium.molten_cesarita": "Cesarita Fundido",
-	"fluid.oredium.molten_caballerita": "Caballerita Fundido",
+	"fluid.oredium.molten_cesarita": "Cesarita Fundida",
+	"fluid.oredium.molten_caballerita": "Caballerita Fundida",
 	"fluid.oredium.molten_enderium": "Enderium Fundido",
 	"fluid.oredium.infernum": "Infernum",
 	// Tootltips - Armaduras

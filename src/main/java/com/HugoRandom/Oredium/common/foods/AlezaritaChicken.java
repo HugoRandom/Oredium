@@ -23,8 +23,8 @@ public class AlezaritaChicken extends SoupItem{
 	
 	public static final Food ALEZARITA_CHICKEN = new Food.Builder()
 			.effect(() -> new EffectInstance(Effects.FIRE_RESISTANCE, 2400, 0), 1.0f)
-			.nutrition(8)
-			.saturationMod(0.8f)
+			.nutrition(10)
+			.saturationMod(0.9f)
 			.alwaysEat()
 			.build();
 	

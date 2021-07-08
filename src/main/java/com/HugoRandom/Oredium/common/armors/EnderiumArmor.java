@@ -23,7 +23,7 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 
 public class EnderiumArmor extends ArmorItem{
 
-	EffectInstance Effect = new EffectInstance(Effects.SLOW_FALLING, 201, 0, false, false);
+	EffectInstance Effect = new EffectInstance(Effects.SLOW_FALLING, 400, 0, false, false);
 	
 	public EnderiumArmor(EquipmentSlotType slot) {
 		super(ArmorOredium.ENDERIUM, 

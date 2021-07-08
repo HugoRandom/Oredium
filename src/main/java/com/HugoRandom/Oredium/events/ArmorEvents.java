@@ -51,7 +51,7 @@ public class ArmorEvents {
 		}	
 		else if (helmet.getItem() == ArmorInit.ENDERIUM_HELMET.get() && chest.getItem() == ArmorInit.ENDERIUM_CHESTPLATE.get()
 				&& legs.getItem() == ArmorInit.ENDERIUM_LEGGINGS.get() && boots.getItem() == ArmorInit.ENDERIUM_BOOTS.get()) {
-			if(event.getSource() == DamageSource.DRAGON_BREATH) {
+			if(event.getSource() == DamageSource.DRAGON_BREATH || event.getSource() == DamageSource.FALL) {
 				event.setCanceled(true);				
 			}				
 		}
@@ -69,7 +69,7 @@ public class ArmorEvents {
 		}		
 		else if (helmet.getItem() == ArmorInit.MIGUELITIO_HELMET.get() && chest.getItem() == ArmorInit.MIGUELITIO_CHESTPLATE.get()
 				&& legs.getItem() == ArmorInit.MIGUELITIO_LEGGINGS.get() && boots.getItem() == ArmorInit.MIGUELITIO_BOOTS.get()) {
-			if(event.getSource() == DamageSource.LIGHTNING_BOLT || event.getSource() == DamageSource.fireworks(null, null)) {
+			if(event.getSource() == DamageSource.LIGHTNING_BOLT || event.getSource() == DamageSource.FLY_INTO_WALL) {
 				event.setCanceled(true);
 			}
 		}

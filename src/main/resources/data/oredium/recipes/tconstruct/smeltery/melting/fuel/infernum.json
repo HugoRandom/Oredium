@@ -4,7 +4,7 @@
     	"name": "oredium:infernum",
     	"amount": 50
   	},
-  	"duration": 200,
+  	"duration": 250,
   	"temperature": 2500,
   	"conditions": [
       	{

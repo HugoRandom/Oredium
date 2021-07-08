@@ -23,8 +23,8 @@ public class Fraopu extends Item{
 	
 	public static final Food FRAOPU = new Food.Builder()
 			.effect(() -> new EffectInstance(Effects.REGENERATION, 200, 0), 1.0f)
-			.nutrition(5)
-			.saturationMod(1.0f)
+			.nutrition(6)
+			.saturationMod(1.2f)
 			.alwaysEat()
 			.build();
 	

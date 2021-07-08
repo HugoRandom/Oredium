@@ -23,7 +23,7 @@ public class ShineCupcake extends Item{
 	
 	public static final Food SHINE_CUPCAKE = new Food.Builder()
 			.effect(() -> new EffectInstance(Effects.WATER_BREATHING, 600, 0), 1.0f)
-			.nutrition(6)
+			.nutrition(7)
 			.saturationMod(0.5f)
 			.alwaysEat()
 			.build();
